@@ -378,3 +378,157 @@ line-height:1.85;
 .control-icon--next{
   rotate: 180deg;
 }
+/* =============================== install ================================ */
+.install__inner{
+  margin: 180px 0 85px;
+  position: relative;
+  justify-content: space-between;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  height: 427px;
+  border-radius: 4px;
+background: #2E80CE;
+}
+.install__img{
+  position: absolute;
+  width: 284px;
+height: 522px;
+bottom: 0;
+}
+.install__content{
+  max-width: 586px;
+
+}
+.install__heading{
+  color: #FFF;
+font-size: 5.0rem;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: -1px;
+max-width: 489px;
+}
+.install__desc{
+  margin-top: 18px;
+  color: #FFF;
+font-size: 1.8rem;
+font-weight: 300;
+line-height: 1.66;
+}
+.install__row{
+  display: flex;
+  margin-top: 38px;
+column-gap: 28px;
+align-items: center;
+}
+/* =============================== blog ================================ */
+.blog{
+  padding: 85px 0;
+}
+.blog__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog__content{
+  width: 40%;
+}
+.blog__heading{
+  max-width: 470px;
+}
+.blog__more{
+  display: inline-block;
+  margin-top: 28px;
+  color: #10375C;
+font-family: Inter;
+font-size: 1.8rem;
+font-weight: 600;
+line-height: 1.55;
+text-decoration-line: underline;
+text-underline-offset: 4px;
+}
+.blog__control{
+  margin-top: 28px;
+  justify-content: flex-start;
+}
+.blog__list{
+  display: grid; 
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 30px;
+}
+.blog-item{
+  max-width: 270px;
+  overflow: hidden;
+  border-radius: 12px;
+border: 1px solid #E8EBEE;
+background: #FFF;
+transition: 0.5s;
+}
+.blog-item:hover{
+box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
+border-color: transparent;
+}
+.blog-item:hover .blog-item__thumb{
+  transform:scale(1.1);
+}
+.blog-item__thumb{
+  width: 270px;
+height: 172px;
+border-radius: 12px 12px 0px 0px;
+object-fit: cover;
+transition: 0.25s;
+}
+.blog-item__wrap{
+  overflow: hidden;
+}
+.blog-item__body{
+  padding: 18px 22px;
+}
+.blog-item__heading{
+  color: #10375C;
+font-size: 1.6rem;
+font-weight: 600;
+line-height: 1.62;
+margin-top: 18px; 
+}
+.blog-item__desc{
+  color: #575F66;
+font-size: 1.4rem;
+font-weight: 300;
+line-height: 1.71;
+margin-top: 10px;
+}
+.blog-item__more{
+  color: #10375C;
+font-size: 1.4rem;
+line-height: normal;
+margin-top: 12px;
+display: inline-block;
+}
+.blog-item__more:hover{
+  color:#2E80CE;
+}
+/* =============================== appointment ================================ */
+.appointment{
+  margin: 85px 0;
+}
+.appointment__inner{
+  padding:100px 178px;
+  background:#f6fbff;
+  text-align: center;
+}
+.appointment__heading::after{
+content: "";
+display: block;
+width: 136px;
+height: 2px;
+background: #2E80CE;
+margin: 18px auto 0;
+}
+.appointment__desc{
+  margin: 18px auto 0;
+  max-width: 617px;
+}
+.appointment__btn{
+  margin-top: 18px;
+}
